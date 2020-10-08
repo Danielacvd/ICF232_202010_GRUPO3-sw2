@@ -13,11 +13,11 @@ class Blog(models.Model):
         return "{}".format(self.titulo)
 
     
-    # def getBlog(self,titulo):
-    #     for blog in self.blogs:
-    #         if blog.titulo==titulo:
-    #             return blog
-    #     return None       
+    def getBlog(self,titulo):
+        for blog in self.blogs:
+            if blog.titulo==titulo:
+                return blog
+        return None       
 
 
 
