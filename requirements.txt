@@ -3,3 +3,4 @@ djangorestframework
 gunicorn
 django-ckeditor
 django-braces
+django-microsoft-auth

@@ -37,12 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'microsoft_auth',
     'Blog',
     'ckeditor',
     'usuarios',
     
 ]
 
+SITE_ID =1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -66,10 +69,22 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'microsoft_auth.context_processors.microsoft',
             ],
         },
     },
 ]
+
+AUTHENTICATION_BACKENDS = [
+    'microsoft_auth.backends.MicrosoftAuthenticationBackend',
+    'django.contrib.auth.backends.ModelBackend' 
+]
+
+MICROSOFT_AUTH_CLIENT_ID = 'bdd712a8-5515-47bf-b230-ae35e3729bb3'
+MICROSOFT_AUTH_CLIENT_SECRET = 'eQF4.x5u0uIU7pvM7eL-oN-.dTM6jMp6AG'
+MICROSOFT_AUTH_LOGIN_TYPE = 'ma'
+MICROSOFT_AUTH_TENANT_ID = '6fd48f41-af81-45a5-9c1e-e3990bc27e7c'
+
 
 WSGI_APPLICATION = 'NoticiasUnab.wsgi.application'
 
