@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 ]
 
 SITE_ID =1
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -81,7 +82,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 MICROSOFT_AUTH_CLIENT_ID = 'bdd712a8-5515-47bf-b230-ae35e3729bb3'
-MICROSOFT_AUTH_CLIENT_SECRET = 'eQF4.x5u0uIU7pvM7eL-oN-.dTM6jMp6AG'
+MICROSOFT_AUTH_CLIENT_SECRET = 'EA_MHSdPHGy0~GQU0_L-2u-KuMx7RnR159'
 MICROSOFT_AUTH_LOGIN_TYPE = 'ma'
 MICROSOFT_AUTH_TENANT_ID = '6fd48f41-af81-45a5-9c1e-e3990bc27e7c'
 
