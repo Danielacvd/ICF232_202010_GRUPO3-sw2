@@ -2,6 +2,7 @@ from django.urls import path
 from .views import VistaHome, BlogDetalle, CrearBlog, EditarBlog, BorrarBlog, CrearCarrera, CarreraView, Comentar
 from django.urls import include
 
+
 urlpatterns = [
     #path('', views.home, name="home"),
     path('', VistaHome.as_view(), name = 'home'),

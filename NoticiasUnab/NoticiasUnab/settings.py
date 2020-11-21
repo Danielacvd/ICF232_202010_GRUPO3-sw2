@@ -42,8 +42,9 @@ INSTALLED_APPS = [
     'Blog',
     'ckeditor',
     'usuarios',
-    
+    'tutorial',
 ]
+
 
 SITE_ID =1
 
