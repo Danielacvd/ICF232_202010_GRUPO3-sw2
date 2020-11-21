@@ -20,7 +20,7 @@ class Blog(models.Model):
     titulo = models.CharField(max_length=35, blank = False, null = False)
     cuerpo = RichTextField()
     fecha = models.DateField(auto_now_add=True)
-    carrera = models.CharField(max_length=35, default='General')
+    carrera = models.CharField(max_length=50, default='General')
 
     def __str__(self):
         return self.titulo + ' | ' + str(self.autor_id)
