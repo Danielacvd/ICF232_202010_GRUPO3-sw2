@@ -1,6 +1,10 @@
-
 body{
-    background-color:#AD1F2B;
+    /* background-color:#AD1F2B; */
+  background-image: url("fondocolor.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .caja{
     padding: 38px;
@@ -12,10 +16,16 @@ form{
     border-radius: 10px;
     font-weight: 600;
 }
+
 .nav, img{
-    width: 20%;;
-    display: inline-block;
-}
+    background-size: cover;
+    position: relative;
+    left: 25%;
+    display: flex;
+    flex-flow: row;
+    width: 204px;
+    height: 82px;
+  }
 
 .todo{
     text-align: center;
@@ -70,6 +80,9 @@ div .boton a:hover{
 }
 .nav-link{
     color: gray !important;
+    position: relative;
+    left: 1000px;
+    
 }
 h1{
     color: white;
@@ -118,6 +131,12 @@ html{
       left: 0;
       right: 0;
       height:30px;
-      background-color:white;
+  }
+  .loginn {
+      align-items: center;
+  }
+  nav
+  {
+      background-color: rgba(255, 255, 255, 0.877);
   }
   
