@@ -15,7 +15,6 @@ form{
 .nav, img{
     width: 20%;;
     display: inline-block;
-
 }
 
 .todo{
@@ -25,8 +24,6 @@ form{
 /* .margen1{
     margin-top: 50px;
 } */
-
-
 
 .blog{
     background-color: white;
@@ -101,8 +98,6 @@ h2{
 .del{
     color: black;
 }
-
-
 
 html{
 
