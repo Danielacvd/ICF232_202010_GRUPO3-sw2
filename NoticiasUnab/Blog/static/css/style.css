@@ -79,7 +79,7 @@ div .boton a:hover{
     width: 49%;
 }
 .nav-link{
-    color: gray !important;
+    color: rgb(129, 127, 127) !important;
     position: relative;
     left: 1000px;
     
@@ -95,6 +95,7 @@ h2{
 
 .separa{
     margin: 25px;
+    padding: 0;
 }
 
 /* .separabody{
@@ -103,10 +104,6 @@ h2{
     padding: 160px;
 } */
 
-.center{
-    text-align: center;
-    margin-top: 10px;
-}
 
 .del{
     color: black;
@@ -139,4 +136,44 @@ html{
   {
       background-color: rgba(255, 255, 255, 0.877);
   }
-  
+
+  .card-text{
+    text-align: justify !important;
+    padding: 3px 10px;
+  border-top: rgba(12, 81, 126, 0.877) 2px solid;
+  border-bottom: rgba(12, 81, 126, 0.877) 2px solid;
+}
+  .card-fecha{
+      text-align: center;
+  }
+  .card-title{
+      text-align: center;
+      text-decoration: underline;
+      
+  }
+  .card-carrera{
+      text-align: center;
+  }
+ .card-autor{
+     text-align: center;
+ }
+ .card-body{
+    padding: 3px 10px;
+  border: rgba(12, 81, 126, 0.877) 5px solid;
+ }
+ .ajustin{
+     width: 100%;
+     text-align: center;
+     position: relative;
+     bottom: 0px;
+ }
+ .TituleUNAB{
+     text-align: center;
+ }
+ .row{
+     margin-left: 5%;
+     margin-bottom: 5%;
+ }
+.color-footer{
+    color: rgba(255, 255, 255, 0.658) ;
+}
