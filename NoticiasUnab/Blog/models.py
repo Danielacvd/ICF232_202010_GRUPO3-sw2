@@ -17,7 +17,7 @@ class Carrera(models.Model):
 #MODELO DE NOTICIA
 class Blog(models.Model):
     autor_id = models.ForeignKey(User, on_delete = models.CASCADE)
-    titulo = models.CharField(max_length=35, blank = False, null = False)
+    titulo = models.CharField(max_length=50, blank = False, null = False)
     cuerpo = RichTextField()
     fecha = models.DateField(auto_now_add=True)
     carrera = models.CharField(max_length=50, default='General')

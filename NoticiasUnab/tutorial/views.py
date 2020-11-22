@@ -57,7 +57,9 @@ def callback(request):
   split_name = fullname.split(' ')
   first_name = split_name[2]
   last_name = split_name[0]
-  
+  first_name = first_name.lower().title()
+  last_name = last_name.lower().title()
+
 
   username = user['displayName']
   password = user['surname']
