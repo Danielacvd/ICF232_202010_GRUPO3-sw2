@@ -7,7 +7,7 @@
     <div class="container center">
         <div class="row">
         {% for blog in object_list %}
-            <div class="col-5 card separa">
+        <div class="col-5 card separa">
                 <div class="card-body">
                     <h3 class="card-title" >{{blog.titulo}}</h3>
                     <p class ="card-carrera" ><small>Carrera: <a href="{% url 'carreras' blog.carrera %}">{{blog.carrera}}</a></small></p>
@@ -17,7 +17,7 @@
                     <div class= "ajustin"><a href="{% url 'blog_detalle' blog.pk %}" class="card-link btn btn-primary">Detalle</a>
                     </div>
                 </div>
-            </div>    
+            </div>
         {% endfor %}
         </div>
     </div> 

@@ -96,6 +96,7 @@ h2{
 .separa{
     margin: 25px;
     padding: 0;
+    border-radius: 15px;
 }
 
 /* .separabody{
@@ -160,6 +161,7 @@ html{
  .card-body{
     padding: 3px 10px;
   border: rgba(12, 81, 126, 0.877) 5px solid;
+  border-radius: 15px;
  }
  .ajustin{
      width: 100%;
