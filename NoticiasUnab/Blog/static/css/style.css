@@ -59,12 +59,13 @@ div .boton a:hover{
 }
 
 .text {
-    display: block;
-    width: 100px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
+        width:99%;
+        height:50px;
+        color:black;
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow: ellipsis;
+    }
 
 .container--flex{
     display: flex;
@@ -141,8 +142,9 @@ html{
   .card-text{
     text-align: justify !important;
     padding: 3px 10px;
-  border-top: rgba(12, 81, 126, 0.877) 2px solid;
-  border-bottom: rgba(12, 81, 126, 0.877) 2px solid;
+  border-top: rgba(12, 81, 126, 0.3) 1px solid;
+  border-bottom: rgba(12, 81, 126, 0.3) 1px solid;
+
 }
   .card-fecha{
       text-align: center;

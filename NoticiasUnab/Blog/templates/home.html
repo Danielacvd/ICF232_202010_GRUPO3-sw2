@@ -11,7 +11,7 @@
                 <div class="card-body">
                     <h3 class="card-title" >{{blog.titulo}}</h3>
                     <p class ="card-carrera" ><small>Carrera: <a href="{% url 'carreras' blog.carrera %}">{{blog.carrera}}</a></small></p>
-                    <p class="card-text">{{ blog.cuerpo|striptags}}</p>
+                    <p class="card-text text">{{ blog.cuerpo|striptags}}</p>
                     <p class="card-autor"><small>Autor: {{blog.autor_id.first_name}} {{blog.autor_id.last_name}}</small></p>
                     <p class="card-fecha"><small>{{ blog.fecha }}</small></p>
                     <div class= "ajustin"><a href="{% url 'blog_detalle' blog.pk %}" class="card-link btn btn-primary">Detalle</a>
